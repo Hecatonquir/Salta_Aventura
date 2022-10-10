@@ -4,7 +4,7 @@
 import styled from '@emotion/styled';
 
 type MainDivProps = {
-	dark: boolean;
+	dark?: boolean;
 };
 
 export const MainDiv = styled.div<MainDivProps>`

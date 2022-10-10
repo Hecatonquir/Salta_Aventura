@@ -10,7 +10,15 @@ import { css } from '@emotion/react';
 
 export default function CardServices({ post }: { post: any }) {
 	return (
-		<Card sx={{ position: 'relative', width: 'fit-content', overflow: 'visible', marginTop: '4rem' }}>
+		<Card
+			sx={{
+				position: 'relative',
+				width: 'fit-content',
+				overflow: 'visible',
+				marginTop: '4rem',
+				display: 'flex',
+				justifyContent: 'center',
+			}}>
 			<CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
 				<Paper
 					sx={{

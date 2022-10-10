@@ -2,11 +2,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { MainDiv } from '../Styles/globalComponents';
-
 import CardServices from './CardServices';
 import { services } from '../FalseBackEnd/services';
-
 import Container from '@mui/material/Container';
+import Grid from '@mui/material/Unstable_Grid2';
 
 const Services = () => {
 	return (
@@ -16,17 +15,13 @@ const Services = () => {
 				minHeight: 'fit-content',
 				padding: '2rem 0',
 			}}>
-			<Container
-				maxWidth='lg'
-				sx={{
-					display: 'flex',
-					flexDirection: 'row',
-					justifyContent: 'space-between',
-				}}>
+			<Grid container spacing={2}>
 				{services.map((post, i) => (
-					<CardServices key={post.title} post={post} />
+					<Grid xs={12} md={3} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+						<CardServices key={post.title} post={post} />
+					</Grid>
 				))}
-			</Container>
+			</Grid>
 		</MainDiv>
 	);
 };
