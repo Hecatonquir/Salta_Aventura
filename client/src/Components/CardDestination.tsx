@@ -42,7 +42,14 @@ export default function CardDestination({ destination }: { destination: any }) {
 	};
 
 	return (
-		<Card sx={{ position: 'relative', maxWidth: 345 }}>
+		<Card
+			sx={{
+				position: 'relative',
+				maxWidth: 345,
+				overflow: 'hidden',
+				display: 'flex',
+				flexDirection: 'row',
+			}}>
 			<CardMedia component='img' height='194' image={destination.image} alt={destination.imageLabel} />
 			<Chip
 				label={`AR$ ${destination.price}`}

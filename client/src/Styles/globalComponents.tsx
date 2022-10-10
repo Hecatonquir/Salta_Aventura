@@ -10,10 +10,11 @@ type MainDivProps = {
 export const MainDiv = styled.div<MainDivProps>`
 	background-color: ${(props) => (props.dark ? 'var(--color-blue1)' : 'var(--color-white1)')};
 	height: fit-content;
-	min-width: 100vw;
+	min-width: 95vw;
 	@media (min-width: 800px) {
 		min-height: 100vh;
 	}
+	overflow: hidden;
 `;
 
 type ButtonProps = {

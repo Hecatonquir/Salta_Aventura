@@ -23,6 +23,7 @@ const Footer = () => {
 				minHeight: '10rem',
 				display: 'flex',
 				justifyContent: 'space-between',
+				overflow: 'hidden',
 			}}>
 			<Box sx={{ /* bgcolor: 'background.paper', */ p: 6 }} component='footer'>
 				<Typography variant='h6' align='center' gutterBottom>

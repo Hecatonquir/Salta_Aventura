@@ -3,7 +3,7 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme();
 
 export const nav = css`
-	position: sticky;
+	position: sticky !important;
 	background-color: rgb(0, 0, 0, 0.6);
 	backdrop-filter: blur(10px);
 	&:hover {

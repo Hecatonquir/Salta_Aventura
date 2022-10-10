@@ -4,7 +4,7 @@ import Slides from '../FalseBackEnd/Slides';
 
 const Header = () => {
 	return (
-		<div>
+		<div style={{ overflow: 'hidden' }}>
 			<EmblaCarousel slides={Slides} />
 		</div>
 	);

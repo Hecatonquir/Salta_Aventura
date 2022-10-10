@@ -11,12 +11,10 @@ import { destinations } from '../FalseBackEnd/Destinations';
 const Main = () => {
 	return (
 		<MainDiv
-			dark
-			style={
-				{
-					/* backgroundColor: 'red', */
-				}
-			}>
+			style={{
+				backgroundColor: 'var(--color-pink1)',
+				overflow: 'hidden',
+			}}>
 			<Box
 				sx={{
 					bgcolor: 'background.paper',
@@ -28,16 +26,15 @@ const Main = () => {
 						Tour Packages
 					</Typography>
 					<Typography variant='h5' align='center' color='text.secondary' paragraph>
-						Something short and leading about the collection below—its contents, the creator, etc. Make
-						it short and sweet, but not too short so folks don&apos;t simply skip over it entirely.
+						Something short and leading about the collection below—its contents, the creator, etc.
 					</Typography>
 				</Container>
 			</Box>
-			<Container sx={{ py: 8 }} maxWidth='lg'>
+			<Container sx={{ py: 8 }} maxWidth='xl'>
 				{/* End hero unit */}
-				<Grid container spacing={4}>
+				<Grid container spacing={2}>
 					{destinations.map((destination) => (
-						<Grid item key={destination.title} xs={12} sm={6} md={4} lg={3}>
+						<Grid item key={destination.title} xs={12}>
 							<CardDestination destination={destination} />
 						</Grid>
 					))}
