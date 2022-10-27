@@ -16,8 +16,9 @@ const Slides = [
 		description:
 			"Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
 		image: imagen1,
-		imageText: 'main image description',
+
 		linkText: 'Continue reading…',
+		video: true,
 	},
 	{
 		id: 2,
@@ -25,7 +26,6 @@ const Slides = [
 		description:
 			"Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
 		image: imagen2,
-		imageText: 'main image description',
 		linkText: 'Continue reading…',
 	},
 	{
@@ -34,7 +34,6 @@ const Slides = [
 		description:
 			"Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
 		image: imagen3,
-		imageText: 'main image description',
 		linkText: 'Continue reading…',
 	},
 	{
@@ -43,7 +42,6 @@ const Slides = [
 		description:
 			"Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
 		image: imagen4,
-		imageText: 'main image description',
 		linkText: 'Continue reading…',
 	},
 	{
@@ -52,7 +50,6 @@ const Slides = [
 		description:
 			"Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
 		image: imagen5,
-		imageText: 'main image description',
 		linkText: 'Continue reading…',
 	},
 	{
@@ -61,7 +58,6 @@ const Slides = [
 		description:
 			"Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
 		image: imagen6,
-		imageText: 'main image description',
 		linkText: 'Continue reading…',
 	},
 	{
@@ -70,7 +66,6 @@ const Slides = [
 		description:
 			"Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
 		image: imagen7,
-		imageText: 'main image description',
 		linkText: 'Continue reading…',
 	},
 	{
@@ -79,7 +74,6 @@ const Slides = [
 		description:
 			"Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
 		image: imagen8,
-		imageText: 'main image description',
 		linkText: 'Continue reading…',
 	},
 	{
@@ -88,7 +82,6 @@ const Slides = [
 		description:
 			"Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
 		image: imagen9,
-		imageText: 'main image description',
 		linkText: 'Continue reading…',
 	},
 	{
@@ -97,7 +90,6 @@ const Slides = [
 		description:
 			"Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
 		image: imagen10,
-		imageText: 'main image description',
 		linkText: 'Continue reading…',
 	},
 ];

@@ -1,5 +1,4 @@
 import Logo from './Logo.svg';
-import cactus from './cactus.svg';
 import adventure from './undraw_adventure_map_hnin.svg';
 import blooming from './undraw_blooming_re_2kc4.svg';
 import cabin from './undraw_cabin_hkfr.svg';
@@ -20,7 +19,6 @@ export {
 	cabin2,
 	fire,
 	relaxation,
-	cactus,
 	Logo,
 	adventure,
 	blooming,

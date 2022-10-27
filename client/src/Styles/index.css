@@ -4,4 +4,20 @@
 }
 html {
 	background-color: var(--color-blue3);
+	scroll-behavior: smooth;
+}
+p {
+	display: -webkit-box !important;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+@media (max-width: 600px) {
+	p {
+		-webkit-line-clamp: 2;
+	}
+}
+
+a {
+	text-decoration: none;
 }

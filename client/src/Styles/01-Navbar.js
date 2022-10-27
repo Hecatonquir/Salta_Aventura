@@ -3,14 +3,14 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme();
 
 export const nav = css`
-	position: sticky !important;
-	background-color: rgb(0, 0, 0, 0.6);
+	position: fixed;
+	background-color: rgb(200, 200, 200, 0.6);
 	backdrop-filter: blur(10px);
 	&:hover {
-		background-color: rgb(0, 0, 0, 0.8);
+		background-color: rgb(150, 150, 150, 0.8);
 	}
 	${theme.breakpoints.down('md')} {
-		background-color: rgb(100, 100, 100, 0.6);
+		background-color: rgb(200, 200, 200, 0.6);
 	}
 `;
 
